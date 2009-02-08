@@ -1,6 +1,6 @@
 #labels Featured
-<h1> FireFox Google Gadget Sidebar</h1>
-<h3>Frequently Asked Questions</h3>
+<h2> Firefox Google Gadget Sidebar</h2>
+Frequently Asked Questions
 
 
 
