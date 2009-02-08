@@ -19,7 +19,12 @@ try {
 	alert("error");
 }
 
-var dataDirPref =path+"/extensions/googlegadgets@shree.kant/content/";
+if (path.search(/\\/) != -1) {
+	var dataDirPref = path + "\\extensions\\googlegadgets@shree.kant\\content\\";
+} else {
+	var dataDirPref = path + "/extensions/googlegadgets@shree.kant/content/";
+}
+//var dataDirPref =path+"/extensions/googlegadgets@shree.kant/content/";
 
 var fp = Components.classes["@mozilla.org/filepicker;1"]
 	           .createInstance(nsIFilePicker);
